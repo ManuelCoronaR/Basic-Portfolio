@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../images/background.png);
+  background-repeat: repeat;
+  margin: 0 auto;
+}
+
+.about,
+.portfolio,
+.contact { 
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+  padding: 24px;
+  text-decoration-line: none;
+  text-align: right;
+}
+li a:hover {
+  background-color: rgb(199, 197, 197);
+}
+.active {
+  background-color: rgb(52, 132, 134);
+  font-size: 24px;
+  text-decoration-line: none;
+  text-align: center;
+  padding-left: 35px;
+}
+
+li a {
+    background-color: whitesmoke;
+    list-style-type:none;
+    padding: 20px;
+    display:table;
+    color:black;
+    width: 25%;
+    float: left;
+    border-style: ridge;
+    border-color: dimgrey;
+    
+    }
+     
+
+  #about_me {
+    background-color: rgb(134, 123, 123);
+    padding: 25px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    width: 960px;
+    height: 483px;
+    clear: both;
+    overflow: auto;
+  }
+
+   h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    float: left;
+  }
+  img  {
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: 150px;
+    height: 150px;
+  }
+  p {
+    line-height: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  footer {
+    background-color: rgb(87, 85, 85);
+    padding: 25px;
+    clear: both;
+    overflow: auto;
+    padding-bottom: 3px;
+    font-size: 8px;
+    margin-top: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    position: sticky; 
+  }
