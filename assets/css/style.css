@@ -5,69 +5,104 @@ body {
   background-image: url(../images/background.png);
   background-repeat: repeat;
   margin: 0 auto;
+  text-decoration-line: none;
 }
 
+li,
+nav  {
+  border-bottom: 1px solid rgb(235, 231, 231);
+}
+.box-spacer {
+  background-color: white;
+  width: 12%;
+  padding: 20px;
+  float: left;
+  border-bottom: 1px solid rgb(235, 231, 231);
+}
+.active {
+  background-color: rgb(50, 200, 202);
+  color: white;
+  font-size: 24px;
+  padding: 20px;
+  width: 18%;
+  text-align: center;
+  float: left;
+  
+}
+.nav-spacer {
+  background-color: white;
+  border-bottom: 1px soli rgb(235, 231, 231);
+  padding: 20px;
+  width: 35%;
+  float: left;
+  
+}
 .about,
 .portfolio,
 .contact { 
   font-family: Georgia, 'Times New Roman', Times, serif ;
-  padding: 24px;
-  text-decoration-line: none;
+  font-size: 14px;
+  padding: 20px;
   text-align: right;
+  color: gray;
+  width:28%;
 }
+/*.spacer-end {
+  background-color: white;
+  width: 25%;
+  padding: 28px;
+  float: right;
+  border-bottom: 1px solid rgb(235, 231, 231);
+}*/
 li a:hover {
-  background-color: rgb(199, 197, 197);
-}
-.active {
-  background-color: rgb(52, 132, 134);
-  font-size: 24px;
-  text-decoration-line: none;
-  text-align: center;
-  padding-left: 35px;
+  background-color: rgb(206, 214, 214);
 }
 
-li a {
-    background-color: whitesmoke;
+li {
+    background-color: white;
     list-style-type:none;
     padding: 20px;
-    display:table;
+    display:inline;
     color:black;
-    width: 25%;
-    float: left;
     border-style: ridge;
-    border-color: dimgrey;
+    border-color: rgb(235, 231, 231);
     
     }
-     
+    a {
+      text-decoration: none;
+      
+    }
 
   #about_me {
-    background-color: rgb(134, 123, 123);
-    padding: 25px;
-    margin-bottom: 100px;
+    background-color: white;
+    padding: 2.5%;
+    margin-top: 6%;
+    margin-bottom: 6%;
     margin-left: 150px;
     width: 960px;
-    height: 483px;
+    height: 480px;
     clear: both;
     overflow: auto;
+    border: 1px solid rgb(235, 231, 231);
   }
 
    h1 {
-    margin-bottom: 10px;
     font-size: 24px;
     float: left;
+    padding-bottom: 1%;
   }
   img  {
     float: left;
     margin-left: 20px;
     margin-right: 20px;
-    margin-top: 20px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     width: 150px;
-    height: 150px;
+    height: 180px;
   }
   p {
-    line-height: 32px;
+    line-height: 195%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
   }
   footer {
     background-color: rgb(87, 85, 85);
